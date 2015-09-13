@@ -18,6 +18,7 @@ namespace PotterShoppingCart.Tests
             var target = new Books();
             var booksInfo = new ViewModelBooks
             {
+                Price = 0,
                 BookQty = new int[] { 1 }
             };
 
@@ -36,6 +37,7 @@ namespace PotterShoppingCart.Tests
             var target = new Books();
             var booksInfo = new ViewModelBooks
             {
+                Price = 0,
                 BookQty = new int[] { 1 , 1 }
             };
 
@@ -54,6 +56,7 @@ namespace PotterShoppingCart.Tests
             var target = new Books();
             var booksInfo = new ViewModelBooks
             {
+                Price = 0,
                 BookQty = new int[] { 1, 1, 1 }
             };
 
@@ -72,6 +75,7 @@ namespace PotterShoppingCart.Tests
             var target = new Books();
             var booksInfo = new ViewModelBooks
             {
+                Price = 0,
                 BookQty = new int[] { 1, 1, 1, 1 }
             };
 
@@ -90,6 +94,7 @@ namespace PotterShoppingCart.Tests
             var target = new Books();
             var booksInfo = new ViewModelBooks
             {
+                Price = 0,
                 BookQty = new int[] { 1, 1, 1, 1, 1 }
             };
 
@@ -108,6 +113,7 @@ namespace PotterShoppingCart.Tests
             var target = new Books();
             var booksInfo = new ViewModelBooks
             {
+                Price = 0,
                 BookQty = new int[] { 1, 1, 2 }
             };
 
@@ -126,6 +132,7 @@ namespace PotterShoppingCart.Tests
             var target = new Books();
             var booksInfo = new ViewModelBooks
             {
+                Price = 0,
                 BookQty = new int[] { 1, 2, 2 }
             };
 
@@ -147,6 +154,7 @@ namespace PotterShoppingCart.Tests
             var target = new Books();
             var booksInfo = new ViewModelBooks
             {
+                Price = 0,
                 BookQty = new int[] { 2, 5, 3, 4, 2 }
             };
 
